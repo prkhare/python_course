@@ -1,0 +1,28 @@
+install git
+Go to your directory which you want to make repository of
+git init
+git add .
+git config --global user.email "you@example.com" or git config --global user.name "Your Name"
+git commit -m "comment"
+git remote add origin https://github.com/prkhare/python_course.git
+git push --set-upstream origin master											
+
+
+
+
+
+to add any new file:
+
+git status
+git add .
+git status
+git commit -m "new comment"
+git push
+git status
+
+
+
+
+add>commit>push
+
+
